@@ -4,7 +4,7 @@ const MarketAnalytics = () => {
 
   return (
     <Container size="lg" py="xs">
-      <Card radius="lg" p="xl" bg='dark.6'>
+      <Card radius="lg" p="md" bg='dark.6'>
         <Stack align="center" mb="xl" gap="xs">
           <Badge color='gray.7' size='lg' tt='none'>
             <Text size='xs' c='white'>
@@ -18,7 +18,7 @@ const MarketAnalytics = () => {
             Мы агрегируем вакансии бесплатно в едином окне. Следи за трендами зарплат, востребованностью профессий и новыми возможностями
           </Text>
         </Stack>
-        <Grid>
+        <Grid mb="md">
           <Grid.Col span={{ base: 12, md: 6 }}>
             <Card radius="lg" bg='dark.5' h="100%">
               <Group gap='sm'>
