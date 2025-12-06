@@ -4,7 +4,7 @@ const CommercialProjects = () => {
 
   return (
     <Container size="lg" py="xs">
-      <Card radius="lg" p="xl" bg='dark.6'>
+      <Card radius="lg" p="md" bg='dark.6'>
         <Group justify="center" mb="xl">
           <Badge color='gray.7' size='lg' tt='none'>
             <Text size='xs' c='white'>
@@ -18,7 +18,7 @@ const CommercialProjects = () => {
               Практика в реальных продуктах Хекслета коммит в GitHub, опыт командной разработки и результаты в портфолио
             </Text>
         </Group>
-        <Grid>
+        <Grid mb="md">
           <Grid.Col span={{ base: 12, md: 6 }}>
             <Card radius="lg" bg='dark.5' h="100%">
               <Group gap='sm'>
